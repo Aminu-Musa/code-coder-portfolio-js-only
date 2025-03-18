@@ -21,6 +21,22 @@
     <!-- fonts end -->
   </head>
   <body>
+
+
+    <div class="nav-bar-section close-nav">
+      <nav>
+        <ul class="nav-link-menu">
+          <li><a href="">Services</a></li>
+          <li><a href="">Porfolio</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </nav>
+
+      <div class="close-nav-menu-col"></div>
+    </div>
+
     <div id="wrapper">
       <header>
         <div class="navbar">
@@ -29,15 +45,10 @@
               ><img src="./code coder assets/code-coder-logo-white.png" alt=""
             /></a>
           </div>
-          <nav>
-            <ul>
-              <li><a href="">Services</a></li>
-              <li><a href="">Porfolio</a></li>
-              <li><a href="">Contact</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Blog</a></li>
-            </ul>
-          </nav>
+
+          <div class="hamburger-menu open-menu">
+            <img src="./code coder assets/hamburger-menu.svg" alt="" />
+          </div>
         </div>
       </header>
 
@@ -45,7 +56,8 @@
       <div class="hero">
         <div class="hero-text-left-col">
           <h1 class="hero-title">
-            Hi! I'm Aminu Musa, a <br /><span id="animatedText"></span>
+            <span class="hero-title-span">Hello!</span> <br />I'm Aminu Musa, a
+            <br /><span id="animatedText"></span>
           </h1>
           <p class="about-me">
             Blending creativity with precision to craft digital experiences and
@@ -58,20 +70,19 @@
           </div>
         </div>
 
-        <div class="hero-banner-right-col">
+        <div class="hero-banner-right-col" id="gsap-image-animation">
           <img src="./code coder assets/code-coder-banner-img.png" alt="" />
         </div>
       </div>
       <!-- Hero end -->
 
-      <div class="about-me-section">
+      <div class="about-me-section" id="about-me">
         <div class="about-me-img-col">
           <img src="./code coder assets/code-coder-banner-img.png" alt="" />
         </div>
 
         <div class="about-me-bio-data-section">
           <div class="about-me-container">
-            
             <h2>About Me</h2>
           </div>
           <p>
@@ -92,6 +103,8 @@
     </div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
