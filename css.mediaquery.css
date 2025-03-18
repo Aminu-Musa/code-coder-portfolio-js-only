@@ -1,0 +1,5 @@
+@media(max-width: 750px){
+    .about-me-img-col{
+        display: none;
+    }
+}
