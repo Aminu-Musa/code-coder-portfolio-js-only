@@ -19,7 +19,7 @@ html {
   --header-color: #191919; /* Header section background */
   --footer-color: #202020; /* Footer section background */
   --link-color: #3498db; /* Hyperlink text color */
-  --link-hover-color: #2980b9; /* Hyperlink hover color */
+  --link-hover-color: #663a2c; /* Hyperlink hover color */
 }
 
 body {
@@ -71,6 +71,7 @@ body {
 .close-nav-menu-col {
   background: #000000b8;
   width: 100%;
+  cursor: url("/code\ coder\ assets/closeIcon.svg"), pointer;
 }
 
 nav {
